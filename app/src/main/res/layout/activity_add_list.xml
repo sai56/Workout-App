@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addIntoList">
+
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_margin="20dp"/>
+    <EditText
+        android:id="@+id/NAME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/name"
+        android:layout_margin="8dp"
+        android:hint="Exercise name"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/sets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:text="Sets: "
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_margin="20dp"/>
+    <EditText
+        android:id="@+id/SETS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_toRightOf="@id/sets"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        android:hint="For eg: 3"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/minweight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sets"
+        android:layout_margin="20dp"
+        android:text="Min Weight(in Lbs):"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+    <EditText
+        android:id="@+id/MINWT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sets"
+        android:layout_toRightOf="@id/minweight"
+        android:inputType="number"
+        android:layout_margin="3dp"
+        android:hint="20"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/Maxwt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Max Weight(in Lbs):"
+        android:layout_below="@id/minweight"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_margin="20dp"
+
+        />
+    <EditText
+        android:id="@+id/MAXWT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/minweight"
+        android:layout_toRightOf="@id/Maxwt"
+        android:inputType="number"
+        android:layout_margin="3dp"
+        android:hint="40"
+        android:textAlignment="center"/>
+</RelativeLayout>

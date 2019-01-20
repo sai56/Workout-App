@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Workout-plan</string>
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+    <string name="Sunday">Sunday</string>
+    <string name="text">"Let's take some time out to get healthier and fitter"</string>
+    <string name="Exercise">Exercise</string>
+</resources>

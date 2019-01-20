@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/exercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Exercise"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:fontFamily="sans-serif"
+        />
+    <TextView
+        android:id="@+id/set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sets: "
+        android:layout_below="@id/exercise"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+    <TextView
+        android:id="@+id/reps_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/exercise"
+        android:layout_toRightOf="@id/set"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:text="3"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <TextView
+        android:id="@+id/minwt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MinWt: "
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_below="@id/exercise"
+        android:layout_toRightOf="@id/reps_number"
+        android:layout_marginLeft="12dp"
+        />
+    <TextView
+        android:id="@+id/minwt_val"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20lbs"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_below="@id/exercise"
+        android:layout_toRightOf="@id/minwt"/>
+    <TextView
+        android:id="@+id/maxwt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MaxWt: "
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_below="@id/exercise"
+        android:layout_toRightOf="@id/minwt_val"
+        android:layout_marginLeft="12dp"/>
+    <TextView
+        android:id="@+id/maxwt_val"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="40lbs"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_below="@id/exercise"
+        android:layout_toRightOf="@id/maxwt"/>
+
+</RelativeLayout>

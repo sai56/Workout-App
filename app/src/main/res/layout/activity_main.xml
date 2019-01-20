@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_marginRight="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="8dp"
+
+    >
+    <TextView
+        android:id="@+id/Day1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Monday"
+        android:padding="8dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey"
+        android:layout_below="@id/Day1"/>
+    <TextView
+        android:id="@+id/Day2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Tuesday"
+        android:layout_below="@id/Day1"
+        android:padding="8dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey"
+        android:layout_below="@id/Day2"/>
+    <TextView
+        android:id="@+id/Day3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Wednesday"
+        android:layout_below="@id/Day2"
+        android:padding="8dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey"
+        android:layout_below="@id/Day3"/>
+    <TextView
+        android:id="@+id/Day4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Thursday"
+        android:layout_below="@id/Day3"
+        android:padding="8dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey"
+        android:layout_below="@id/Day4"/>
+    <TextView
+        android:id="@+id/Day5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Friday"
+        android:layout_below="@id/Day4"
+        android:padding="8dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey"
+        android:layout_below="@id/Day5"/>
+
+    <TextView
+        android:id="@+id/Day6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Saturday"
+        android:layout_below="@id/Day5"
+        android:padding="8dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey"
+        android:layout_below="@id/Day6"/>
+
+    <TextView
+        android:id="@+id/Day7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Sunday"
+        android:layout_below="@id/Day6"
+        android:padding="8dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey"
+        android:layout_below="@id/Day7"/>
+
+</RelativeLayout>
+
+
+
+
+
